@@ -19,7 +19,7 @@ variable "TENANT_ID" {
 
 variable "node-pool-name" {
   type    = string
-  default = "pool"
+  default = ""
 
 }
 variable "max-count" {
@@ -34,7 +34,7 @@ variable "min-count" {
 }
 variable "mode" {
   type    = string
-  default = "System"
+  default = "User"
 
 }
 variable "disk-size" {
@@ -54,12 +54,12 @@ variable "vm-size" {
 
 variable "resource-group-name" {
   type    = string
-  default = "test"
+  default = ""
 
 }
 
 variable "aks-name" {
   type    = string
-  default = "deployment"
+  default = ""
 
 }
